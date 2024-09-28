@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  width: 30cm;
+}
+
+.video-container {
+  width: 35%;
+  position: relative;
+}
+
+.auth-sidebar-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.logo-overlay {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  color: white;
+  z-index: 10;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 150px;
+}
+
+h1 {
+  font-size: 25px;
+  margin-bottom: 35px;
+}
+
+.google-signin {
+  display: flex;
+  justify-content: center;
+  padding: 18px;
+  background-color: white;
+  border: 1px solid #a8a5a5;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+  font-size: 14px;
+  margin: 10px;
+}
+
+.google-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+}
+
+.with-lines {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #a39e9e;
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
+.with-lines::before,
+.with-lines::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #ccc;
+  margin: 0 10px;
+}
+
+form input {
+  width: 90%;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  transition: border-color 0.3s ease;
+}
+
+button.login-btn {
+  background-color: #050b25;
+  color: white;
+  padding: 20px;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 60px;
+  transition: background-color 0.3s ease;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+button.login-btn:hover {
+  background-color: #545c64;
+}
+h3 {
+  font-size: 15px;
+  margin: 5px;
+}
+/* Styling for the 'Forgot?' link */
+.forgot-link {
+  margin-left: 7.5cm;
+  color: #000000;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+#Signin {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #2f3236;
+}
+
+/* Ensure Sign Up link remains close to text */
+#Signin a {
+  text-decoration: underline;
+  color: #000000;
+}
+form input:hover,
+form input:focus {
+  outline: none;
+  border-color: #a675b9; /* Purple color on hover and focus */
+  box-shadow: 0 0 5px rgba(155, 89, 182, 0.5); /* Subtle glow effect */
+}
+.dribbble-text {
+  cursor: pointer;
+  font-family: Brush Script MT;
+  font-size: 30px;
+}

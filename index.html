@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dribbble Login Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Video Section -->
+      <div class="video-container">
+        <div class="logo-overlay dribbble-text">Dribbble</div>
+        <video
+          playsinline
+          autoplay
+          loop
+          muted
+          class="auth-sidebar-video"
+          src="https://cdn.dribbble.com/uploads/48226/original/b8bd4e4273cceae2889d9d259b04f732.mp4?1689028949"
+        ></video>
+      </div>
+
+      <!-- Form Section -->
+      <div class="form-container">
+        <h1><strong>Sign in to Dribbble</strong></h1>
+        <button class="google-signin">
+          <img src="image.png" alt="Google" class="google-icon" /> Sign in with
+          Google
+        </button>
+
+        <p class="with-lines">or sign in with email</p>
+
+        <form id="login-form">
+          <h3>Username or Email</h3>
+          <input type="text" required />
+          <h3>
+            Password <a id="forget" href="#" class="forgot-link">Forgot?</a>
+          </h3>
+          <input type="password" required />
+
+          <button type="submit" class="login-btn">Sign In</button>
+        </form>
+
+        <p id="Signin">
+          Don't have an account? <a href="index2.html">Sign up</a>
+        </p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

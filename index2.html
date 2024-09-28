@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dribbble Sign In Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .google-signin {
+        background-color: rgb(13, 13, 44);
+        color: white;
+      }
+      .form-container {
+        width: 12cm;
+      }
+      .Email {
+        border: 1px solid black;
+        background-color: white;
+        border-radius: 25px;
+        border: 1px solid #ccc;
+        margin-bottom: 40px;
+        cursor: pointer;
+      }
+      p {
+        text-align: center;
+        font-size: 13px;
+      }
+      .underline {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Video Section -->
+      <div class="video-container">
+        <div class="logo-overlay dribbble-text">Dribbble</div>
+        <video
+          playsinline=""
+          class="auth-sidebar-video"
+          autoplay=""
+          loop=""
+          muted=""
+          src="https://cdn.dribbble.com/uploads/48292/original/30fd1f7b63806eff4db0d4276eb1ac45.mp4?1689187515"
+        ></video>
+      </div>
+
+      <!-- Form Section -->
+      <div class="form-container">
+        <h1><strong>Sign Up to Dribbble</strong></h1>
+        <button class="google-signin">
+          <img src="image.png" alt="Google" class="google-icon" /> Sign in with
+          Google
+        </button>
+
+        <p class="with-lines">or</p>
+        <button class="Email">
+          <h4>Continue With Email</h4>
+        </button>
+        <p>
+          By creating an account you agree with our
+          <span class="underline">Terms of Service</span>,
+          <span class="underline">Privacy Policy</span>, and our
+          <span class="underline">Notification Settings</span>.
+        </p>
+
+        <p id="Signin">Already have an account? <a href="index.html">Sign In</a></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
